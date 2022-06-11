@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>PPK | Home</title>
+</head>
+
+<body>
+    <div class="bg_img">
+        <img src="/park.jpg" alt="background_img">
+    </div>
+    <div class="header">
+        <header>
+            <p>PPK Discount Calculator</p>
+        </header>
+    </div>
+
+    <div class="hero" id="hero_section">
+        <p>Welcome To Pleasure Park</p>
+        <button class="btn" onclick="app()">Click Here</button>
+    </div>
+
+    <div class="input" id="inpute">
+        <p class="header_">This field is required *</p>
+        <p><input type="text" id="name" required placeholder=" Input Name *"></p>
+        <p><input type="number" id="age" required placeholder=" Age *"></p>
+        <button class="btn" onclick="calculation()">Submit</button>
+    </div>
+
+    <div class="container" id="contain">
+        <div class="container_header">
+            <p>Discount Ticket</p>
+            <hr>
+        </div>
+        <div id="container_content">
+            <p id="nameel">Name :</p>
+            <p id="discount">Discount :</p>
+            <p id="amount">Amount :</p>
+            <p id="comment">Comment :</p>
+            <p id="date">Date :</p>
+        </div>
+        <button  class="btn" onclick="cancel()" style="margin: 2rem;">Cancel</button>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>

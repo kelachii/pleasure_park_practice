@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@100;400&display=swap');
+@import "./helpers";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins;
+    font-weight: 300;
+    line-height: 3rem;
+
+    img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+    .header {
+        font-weight: bold;
+        font-size: 3rem;
+        text-align: center;
+        text-shadow: 1rem;
+        padding-top: 2rem;
+    }
+
+    .hero {
+        font-size: 1.5rem;
+        text-align: center;
+        color: blue;
+        font-weight: 700;
+        margin: 2rem;
+        line-height: 2.3em;
+    }
+
+    .input {
+        background-color: rgba(222, 222, 224, 0.384);
+        width: 30rem;
+        padding: 2.5rem;
+        position: absolute;
+        left: 35%;
+        display: none;
+
+        .header_ {
+            font-size: 2rem;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        #name {
+            width: 100%;
+            height: 2rem;
+        }
+
+        #age {
+            width: 25%;
+            height: 2rem;
+        }
+
+    }
+
+    .container {
+        display: none;
+        &_header {
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.3rem;
+        }
+
+        border: 1px gray;
+        border-radius: 1rem;
+        font-weight: 400;
+        background-color: green;
+        width: 45rem;
+        text-align: left;
+        padding-inline: 3rem;
+        position: absolute;
+        left: 30%;
+        .btn{
+            background-color: red;
+        }
+    }
+}
