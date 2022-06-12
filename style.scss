@@ -65,6 +65,7 @@ body {
 
     .container {
         display: none;
+
         &_header {
             text-align: center;
             font-weight: 700;
@@ -80,8 +81,7 @@ body {
         padding-inline: 3rem;
         position: absolute;
         left: 30%;
-        .btn{
-            background-color: red;
-        }
+
+
     }
 }

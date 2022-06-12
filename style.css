@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.btn_red {
+  background-color: red;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -87,9 +91,5 @@ body .container_header {
   text-align: center;
   font-weight: 700;
   font-size: 1.3rem;
-}
-
-body .container .btn {
-  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */
