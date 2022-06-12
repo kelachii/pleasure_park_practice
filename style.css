@@ -54,7 +54,7 @@ body .input {
   width: 30rem;
   padding: 2.5rem;
   position: absolute;
-  left: 35%;
+  left: 38.25rem;
   display: none;
 }
 
@@ -84,7 +84,7 @@ body .container {
   text-align: left;
   padding-inline: 3rem;
   position: absolute;
-  left: 30%;
+  left: 31.25rem;
 }
 
 body .container_header {
