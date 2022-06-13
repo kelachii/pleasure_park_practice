@@ -84,8 +84,8 @@ function printPageArea() {
     let printContent = document.getElementById("contain");
     let WinPrint = window.open();
     WinPrint.document.write(printContent.innerHTML);
-    // WinPrint.document.close();
-    // WinPrint.focus();
+    WinPrint.document.close();
+    WinPrint.focus();
     WinPrint.print();
-    // WinPrint.close();
+    WinPrint.close();
 }
