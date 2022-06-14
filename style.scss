@@ -2,6 +2,7 @@
 @import "./helpers";
 
 * {
+    font-size: 1rem;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -39,11 +40,11 @@ body {
 
     .input {
         background-color: rgba(222, 222, 224, 0.384);
-        width: 30rem;
+        width: 30%;
         padding: 2.5rem;
-        position: absolute;
-        left: 38.25em;
+        margin: auto;
         display: none;
+
 
         .header_ {
             font-size: 2rem;
@@ -65,23 +66,20 @@ body {
 
     .container {
         display: none;
+        border: 1px gray;
+        border-radius: 1rem;
+        font-weight: 400;
+        background-color: green;
+        width: 45%;
+        text-align: left;
+        padding-inline: 3rem;
+        margin: auto;
 
         &_header {
             text-align: center;
             font-weight: 700;
             font-size: 1.3rem;
         }
-
-        border: 1px gray;
-        border-radius: 1rem;
-        font-weight: 400;
-        background-color: green;
-        width: 45rem;
-        text-align: left;
-        padding-inline: 3rem;
-        position: absolute;
-        left: 31.25em;
-
 
     }
 }

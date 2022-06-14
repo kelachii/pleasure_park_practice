@@ -12,6 +12,7 @@
 }
 
 * {
+  font-size: 1rem;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -51,10 +52,9 @@ body .hero {
 
 body .input {
   background-color: rgba(222, 222, 224, 0.384);
-  width: 30rem;
+  width: 30%;
   padding: 2.5rem;
-  position: absolute;
-  left: 38.25em;
+  margin: auto;
   display: none;
 }
 
@@ -80,11 +80,10 @@ body .container {
   border-radius: 1rem;
   font-weight: 400;
   background-color: green;
-  width: 45rem;
+  width: 45%;
   text-align: left;
   padding-inline: 3rem;
-  position: absolute;
-  left: 31.25em;
+  margin: auto;
 }
 
 body .container_header {
